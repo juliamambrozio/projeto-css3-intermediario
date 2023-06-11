@@ -1,4 +1,4 @@
-.conteudo{
+/* .conteudo{
     border: 1px solid red;
     padding: 20px;
     width: 150px;
@@ -12,6 +12,16 @@
     width: 150px;
     margin: 50px;
 
+} */
+
+.noticia{
+    background-color: rgb(175, 175, 175);
+    border: 1px solid grey;
+    padding: 10px;
 }
 
+
+h1{
+
+}
 /*O que tem maior margin se sobrepõe (margin-colapse)*/
