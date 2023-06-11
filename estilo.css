@@ -1,0 +1,17 @@
+.conteudo{
+    border: 1px solid red;
+    padding: 20px;
+    width: 150px;
+    margin: 10px;
+
+}
+
+.conteudo2{
+    border: 1px solid red;
+    padding: 20px;
+    width: 150px;
+    margin: 50px;
+
+}
+
+/*O que tem maior margin se sobrepõe (margin-colapse)*/
