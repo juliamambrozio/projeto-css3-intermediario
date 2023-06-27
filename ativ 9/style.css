@@ -4,5 +4,46 @@ ul#navegacao{
     margin: 0;
     padding: 0;
     list-style: none;
+    width: 720px;
+   
+    background: #fff url('fundo-horizontal.png') repeat-x; 
+    float: left;
+    
+
+}
+
+ul li{
+
+    float: left;
+}
+
+ul a{
+  
+    display: block;
+    padding: 0 2em;
+    line-height: 2.2em;
+    text-decoration: none;
+    color: white;
+    background: url('divisor.png') repeat-y left top;
+
+}
+
+ul .primeiro a{
+    background: none;
+}
+
+ul a:hover{
+    color: #005662;
+    background: #44cade;
+}
+
+/*Marcando qual página está ativa*/
+#home  #navegacao .home a,
+#sobre #navegacao .sobre a, 
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a{
+    color: #005662;
+    background: #44cade;
 
 }
