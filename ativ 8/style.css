@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+/* ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+li{
+    padding: 5px 20px;
+    background: url('seta.png') no-repeat left center;
+
+} */
+
+ul{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+
+ul a{
+
+    display: block;
+    color: black;
+    text-decoration: none;
+    text-indent: 40px;
+    line-height: 40px; /*Altura da linha do texto*/
+    width: 200px;
+    height: 40px;
+    background: url('menu.png') no-repeat;
+ 
+}
+
+ul a:hover{
+    background: url('menu.png') no-repeat right bottom;
+    color: white;
+}
+
