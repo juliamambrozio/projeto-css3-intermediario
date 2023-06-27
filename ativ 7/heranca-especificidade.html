@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Herança e Especificidade</title>
+    <style>
+        
+       /* 
+       --herança-- 
+       body{
+           color: red;
+           border: 1px solid blue;
+        } 
+        */
+
+        /*Especificidade = seletores iguais o último sempre será aplicado*/
+
+        /* p{
+            color: blue !important; importan= serve para mostrar qual é o mais importante
+        }
+
+        p{
+            color: red;
+        } */
+
+        *{
+            color: red;
+        }
+
+        /*Ordem de especificidade:*/
+
+        h2{
+            color: blue;
+        }
+
+        h2.green{
+            color: green;
+        }
+
+        h2#red{
+            color: red;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="pagina">
+        <h2 class="green">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ratione ab, hic fuga doloribus eveniet, asperiores sequi debitis accusantium itaque aspernatur nostrum quis esse. Iste deleniti cum quaerat ad tenetur!</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim cumque animi iusto dolorem voluptatibus. Nesciunt veniam suscipit, a possimus doloribus porro, dignissimos laudantium, vitae deleniti atque amet minima dicta corrupti!</p>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Temporibus enim explicabo expedita! Illo fugit dolorem iure quisquam expedita vel numquam ad modi saepe, temporibus consequatur, velit ab magnam ex deleniti?</p>
+    </div>
+</body>
+</html>
