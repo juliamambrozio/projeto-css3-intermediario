@@ -28,12 +28,25 @@ ul a{
     line-height: 40px; /*Altura da linha do texto*/
     width: 200px;
     height: 40px;
-    background: url('menu.png') no-repeat;
+    background: #f7b600 url('menu.png') no-repeat;
  
 }
 
-ul a:hover{
+a:hover{
     background: url('menu.png') no-repeat right bottom;
+    background-color: #f99200;
     color: white;
 }
+
+/*Marcando qual página está ativa*/
+#home  #navegacao .home a,
+#sobre #navegacao .sobre a, 
+#servicos #navegacao .servicos a,
+#noticias #navegacao .noticias a,
+#contato #navegacao .contato a{
+    background-position: right bottom;
+
+}
+
+
 
