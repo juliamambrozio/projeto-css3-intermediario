@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+div#container{
+    width: 920px; /*Layout líquido utiliza porcentagem*/
+    margin: 0 auto;
+    background: #fff url('coluna.png') repeat-y;
+    min-width: 820px; /*O layout não vai ficar bugado*/
+    max-width: 1280px; /*Para de expandir*/ 
+    
+}
+
+#marca{
+   text-align: center;
+   background: #225599 url('cabecalho2.jpg') no-repeat center center;
+   height: 200px;
+   line-height: 200px;
+}
+
+#conteudo{
+    width: 75%;
+    float: right;
+}
+
+#conteudo-principal{
+    width: 63%;
+    float: left;
+    padding: 10px;
+
+}
+
+/* #imagem{
+    width: 90%;
+    /* overflow: hidden; /*Esconder conteúdo que ultrapassar o limite
+
+}
+ */
+
+img.img-noticia{
+    width: 94%;
+    padding: 2%;
+    max-width: 600px; /*imagem para de aumentar a partir de 600px*/
+}
+
+#conteudo-secundario{
+    width: 34%; /*180 + 320 = 500, sobrando 20px de espaçamento*/
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao{
+    width: 23%; /*180 + 520 = 700, sobrando 20px de espaçamento
+    para passar para porcentagem: valor atual * 100 % pelo tamanho total*/
+    float: left;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+#navegacao ul{
+    list-style: none;
+}
+
+#navegacao li a{
+    text-decoration: none;
+    color: black;
+}
+
+#navegacao li a:hover{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+
+}
