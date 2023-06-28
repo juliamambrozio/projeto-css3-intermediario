@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+div#container{
+    width: 720px; /*Largura fixa*/
+    margin: 0 auto;
+    background: #fff;
+}
+
+#marca{
+   text-align: center;
+   background: grey;
+   height: 100px;
+   line-height: 100px;
+}
+
+#conteudo{
+    width: 520px;
+    float: right;
+}
+
+#conteudo-principal{
+    width: 320px;
+    float: left;
+
+}
+
+#conteudo-secundario{
+    width: 180px; /*180 + 320 = 500, sobrando 20px de espaçamento*/
+    float: right;
+    background: #d1d1d1;
+}
+
+#conteudo-secundario h1,
+#conteudo-secundario h2,
+#conteudo-secundario h3,
+#conteudo-secundario p{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#navegacao{
+    width: 180px; /*180 + 520 = 700, sobrando 20px de espaçamento*/
+    background: #d1d1d1;
+    float: left;
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+
+#navegacao ul{
+    list-style: none;
+}
+
+#navegacao li a{
+    text-decoration: none;
+}
+
+#rodape{
+    clear: both;
+    background: #c4c4c4;
+    padding: 5px;
+
+}
