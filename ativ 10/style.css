@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    width: 720px;
+}
+
+ul li{
+    float: left;
+    background: url('aba-direita.png') no-repeat top right;
+}
+
+li a{
+    display: block;
+    padding: 0 2em;
+    line-height: 3em;
+    text-decoration: none;
+    background: url('aba-esquerda.png') no-repeat;
+    color: white;
+}
+
+ul a:hover{
+    color: #894a1f;
+}
+
+p{
+    clear: both;
+}
+
+
+#home #home a,
+#sobre #sobre a,
+#servicos #servicos a,
+#noticias #noticias a,
+#contato #contato a{
+    background: url('aba-esquerda-atual.png') no-repeat top left;
+    
+}
+
+#home ul  #home,
+#sobre ul #sobre,
+#servicos ul #servicos,
+#noticias ul #noticias,
+#contato ul #contato{
+    background: url('aba-direita-atual.png') no-repeat top right;
+}
+
+    
