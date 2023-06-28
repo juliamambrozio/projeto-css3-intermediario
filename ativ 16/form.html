@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2>Estilizando formulário</h2>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Detalhes de Contato</legend>
+            <div>
+                <label for="inome">Nome:</label>
+                <input type="text" name="inome" id="inome">
+            </div>
+            <div>
+                <label for="iemail">E-mail:</label>
+                <input type="email" name="iemail" id="iemail">
+            </div>
+            <div>
+                <label for="url">URL:</label>
+                <input type="text" name="url" id="url">
+            </div>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Comentários</legend>
+            <div>
+                <label for="imensagem">Mensagem:</label>
+                <textarea name="imensagem" id="imensagem" cols="30" rows="10"></textarea>
+            </div>
+        </fieldset>
+
+        <fieldset>
+            <legend>Lembrar de mim</legend>
+            <div>
+                <label for="sim">
+                
+                        <input type="radio" name="lembrar" id="sim" class="radio">Sim
+                </label>
+            </div>
+                <div>
+                    <label for="nao">
+                        <input type="radio" name="lembrar" id="nao" class="radio">Não
+                    </label>
+                </div>
+    </form>
+</body>
+</html>
