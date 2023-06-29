@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+.caixa{
+    width: 400px;
+    background: #dedede url('fundo-arredondamento.png') repeat-y;
+    /* colocando o background na primeira div para fazer o efeito */
+}
+
+.caixa h2{
+    padding: 10px 20px 0 20px;
+    background: url('topo2.png') no-repeat left top;
+}
+
+.caixa p{
+    padding: 0 20px;
+}
+.caixa .ultimo{
+    width: 400px;
+    height: 24px;
+    background: url('baixo2.png') no-repeat left bottom; /* colocando o background na última div para fazer o efeito */
+}
+
+
+/* .caixa{
+    width: 400px;
+    background: #dedede url('topo2.png') no-repeat left top;
+    
+}
+
+.caixa h2{
+    padding: 10px 20px 0 20px;
+}
+
+.caixa p{
+    background: #dedede url('baixo2.png') no-repeat left bottom;
+    padding: 0px 20px 20px 20px;
+} */
