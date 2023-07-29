@@ -1,0 +1,39 @@
+PROJETO UNES: utilizando recursos html e cssz básico
+Div: elemento tipo block, um embaixo do outro. --- container
+Span: elemento inline, um do lado do outro. --- container
+--------------------------------------------------------------
+PROJETO TECBLOG: Float, conteúdos laterais, centralizamento, removendo fluxo
+--------------------------------------------------------------
+PROJETO NOTÍCIAS CIDADE: Fazendo cabeçalho com background, float, navegação 
+marcada, alternando conteúdos nas páginas, exibindo marcador quando mover o 
+mouse
+--------------------------------------------------------------
+CHALÉ HOTEL: layout líquido, utilizando posições, proporção com o texto, usando
+sobreposição, float, coluna falsa, alinhamento lado a lado
+--------------------------------------------------------------
+Projeto CSS3 Intermediário
+1-Modelo de caixa 
+2-Float (elemento um ao lado do outro, responsivo, limpar fluxo flutuante)
+3-Inline/block
+4-Posicionamento static (padrão), relative (posição relacionada a si mesmo), 
+absolute (posição relacionada ao pai)e fixed (acompanha a rolagem)
+5-Sobrepondo elementos (z-index)
+6-Links visitados e não visitados, quando clicado, passar o mouse em cima
+7-Herança e Especificidade: !important (Qual é mais importante), 
+herança de aplicação
+8-Barra de navegação vertical, hover no background, line-height (altura 
+da linha do texto), marcar página atual
+9-Barra de navegação horizontal
+10-Navegação com abas
+11-Layout de largura fixa
+12-Layout líquido/fluído (A partir de determinado tamanho ele para de encolher,
+utiliza porcentagem, px para %, min-width e max-width)
+13-Imagens líquidas (overflow hidder, imagens líquidas)
+14-Coluna falsa
+15-Tabelas (Colar tabelas, espaçamento entre letras)
+16-Formulários
+17-Formulário de cadastro
+18-Arredondamento de imagens (utilizando imagens arredondadas no background)
+19-Efeito Parallax, opacidade, ocupar 100% da tela, espaçamento entre os 
+textos, manter alinhamento de texto fixo no centro
+20-Fontes
